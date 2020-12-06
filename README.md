@@ -1,7 +1,9 @@
 ﻿
 # 1.)
 Website title: Starbase
+
 Domain: www.starbase.info
+
 Starbase is a website that will be used to provide a simple overview about stars, as well as interesting facts or objects, that were discovered in the observable universe. 
 The User will see an interactive website, where he can click through each entry, as well as simple information regarding each of them. The main purpose is to show the maybe (not yet) interested person, how interesting the cosmos and its objects actually are and in what relation they stand to each other.
 
@@ -56,19 +58,19 @@ Now that we have seen the most common stars, there are a few other obscure stars
 
 When massive stars run out of fuel, their gravitation causes their collapse. This process is called a supernova. When that happens, the gravity compresses the core of the star so hard that even the stars atoms are obliterated. After all that has happened, we have a newborn neutron star. A giant atomic nucleus with the mass of 500.000 times of the earth. They have an extremely high density and can rotate a hundred times per second!(source: https://www.mpifr-bonn.mpg.de/research/fundamental/neutronstars)
 
-###### (embed video: https://www.youtube.com/watch?v=7euiD_kZi4g)
+###### embed video: https://www.youtube.com/watch?v=7euiD_kZi4g
 
 
 ## Pulsars
 
 Most of the neutron stars can be observed as pulsars. Pulsars are rotating neutron stars, which have pulses of radiation at regular intervals. The strong magnetic fields along the poles of the pulsar funnel jets of particles, which produce powerful beams of light. 
-###### (embed Pulsar.png)
+###### embed Pulsar.png
 (source: https://www.mpifr-bonn.mpg.de/research/fundamental/neutronstars)
 
 ## Magnetars
 
 Magnetars are another type of neutron star. In a regular neutron star, the magnetic files are trillions of times the earths, but in the case of magnetars, it's another 1000 times stronger. Like all neutron stars, the crust of the star is locked in the magnetic field. A small movement of the crust can mean that huge amounts of energy can be released in the form of electromagnetic radiation. A magnetar called SGR 1806-20 had a burst, where in 1/10 of a second it released more energy than the sun has in 100.000 years combined.
-###### (embed Magnetar.png)
+###### embed Magnetar.png
 (source: https://www.mpifr-bonn.mpg.de/research/fundamental/neutronstars)
 
 # Planets.html
@@ -102,13 +104,13 @@ While we know that there are a lot of Exoplanets, we will only list a few here, 
 
 
 1. Kepler-186f        -first rocky planet to be found in a habitable zone, which means that the temperature ist right for liquid water
-###### (embed Kepler-186.jpg)
+###### embed Kepler-186.jpg
 
 2. Kepler-16b        -first planet discovered that orbits two stars
-###### (embed Kepler-16b.jpg)
+###### embed Kepler-16b.jpg
 
 3. Kepler-22b        -planet in habitable zone and possible water-world planet
-###### (embed Kepler-22b.jpg)
+###### embed Kepler-22b.jpg
 
 
 (Source: https://www.nasa.gov/feature/jpl/20-intriguing-exoplanets)
