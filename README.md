@@ -1,6 +1,4 @@
-```diff
-- Hyperlink
-```
+
 # 1.)
 Website title: Starbase
 
