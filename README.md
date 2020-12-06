@@ -39,7 +39,7 @@ Stars are massive self-luminous celestial bodies of gas, that shine by radiation
 Well, that answer is kind of complicated. Since there are so many, it won’t be possible for us to list all of them here. The harvard classification system is being used to classify stars by surface temperature from about 2.000 to 40.000 Kelvin. In the following table you can see what kinds of stars exist and what temperature they have. Also, there is a picture, if you are interested!
 
 
-Here you will have to put the data from /Stars/Star_classes.png into a XML File and show the data in a table!
+Here you will have to put the data from /doc/stars/Star_classes.png into a XML File and show the data in a table!
 
 Embed: Morgan-Keenan_spectral_classification.png
 
