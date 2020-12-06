@@ -6,7 +6,8 @@ Starbase is a website that will be used to provide a simple overview about stars
 The User will see an interactive website, where he can click through each entry, as well as simple information regarding each of them. The main purpose is to show the maybe (not yet) interested person, how interesting the cosmos and its objects actually are and in what relation they stand to each other.
 
 
-# 2.)See /doc/stars/Star_classes.png
+# 2.)
+See /doc/stars/Star_classes.png
 
 
 # 3.)
