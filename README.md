@@ -40,9 +40,9 @@ Stars are massive self-luminous celestial bodies of gas, that shine by radiation
 Well, that answer is kind of complicated. Since there are so many, it won’t be possible for us to list all of them here. The harvard classification system is being used to classify stars by surface temperature from about 2.000 to 40.000 Kelvin. In the following table you can see what kinds of stars exist and what temperature they have. Also, there is a picture, if you are interested!
 
 
-Here you will have to put the data from /doc/stars/Star_classes.png into a XML File and show the data in a table!
+###### Here you will have to put the data from /doc/stars/Star_classes.png into a XML File and show the data in a table!
 
-Embed: Morgan-Keenan_spectral_classification.png
+###### Embed: Morgan-Keenan_spectral_classification.png
 
 
 Now that we have seen the most common stars, there are a few other obscure stars, which can be found here(hyperlink to Neutronstar.html).
@@ -56,19 +56,19 @@ Now that we have seen the most common stars, there are a few other obscure stars
 
 When massive stars run out of fuel, their gravitation causes their collapse. This process is called a supernova. When that happens, the gravity compresses the core of the star so hard that even the stars atoms are obliterated. After all that has happened, we have a newborn neutron star. A giant atomic nucleus with the mass of 500.000 times of the earth. They have an extremely high density and can rotate a hundred times per second!(source: https://www.mpifr-bonn.mpg.de/research/fundamental/neutronstars)
 
-(embed video: https://www.youtube.com/watch?v=7euiD_kZi4g)
+###### (embed video: https://www.youtube.com/watch?v=7euiD_kZi4g)
 
 
 ## Pulsars
 
 Most of the neutron stars can be observed as pulsars. Pulsars are rotating neutron stars, which have pulses of radiation at regular intervals. The strong magnetic fields along the poles of the pulsar funnel jets of particles, which produce powerful beams of light. 
-(embed Pulsar.png)
+###### (embed Pulsar.png)
 (source: https://www.mpifr-bonn.mpg.de/research/fundamental/neutronstars)
 
 ## Magnetars
 
 Magnetars are another type of neutron star. In a regular neutron star, the magnetic files are trillions of times the earths, but in the case of magnetars, it's another 1000 times stronger. Like all neutron stars, the crust of the star is locked in the magnetic field. A small movement of the crust can mean that huge amounts of energy can be released in the form of electromagnetic radiation. A magnetar called SGR 1806-20 had a burst, where in 1/10 of a second it released more energy than the sun has in 100.000 years combined.
-(embed Magnetar.png)
+###### (embed Magnetar.png)
 (source: https://www.mpifr-bonn.mpg.de/research/fundamental/neutronstars)
 
 # Planets.html
@@ -78,7 +78,7 @@ Magnetars are another type of neutron star. In a regular neutron star, the magne
 ### Overview
 
 Currently, there are more planets than stars in the milky way. The ones that are orbiting our star, the sun(sol), are counted to be eight. We have rocky planets, such as Mercury, Venus, Earth and Mars, while there are also Gas giants such as Jupiter, saturn and ice giants, such as uranus and neptune. A even smaller planet, called dwarf planet, is the planet pluto.(source:https://solarsystem.nasa.gov/planets/overview/)
-Embed Picture: Planets2013.svg
+###### Embed Picture: Planets2013.svg
 
 ### What are planets?
 
@@ -101,9 +101,14 @@ Exoplanets are all planets that orbit another star, which is not the sun. There 
 While we know that there are a lot of Exoplanets, we will only list a few here, which seem to be the most interesting ones and pictures of what they might look like.
 
 
-1. Kepler-186f        -first rocky planet to be found in a habitable zone, which means that the temperature ist right for liquid water(embed Kepler-186.jpg)
-2. Kepler-16b        -first planet discovered that orbits two stars(embed Kepler-16b.jpg)
-3. Kepler-22b        -planet in habitable zone and possible water-world planet(embed Kepler-22b.jpg)
+1. Kepler-186f        -first rocky planet to be found in a habitable zone, which means that the temperature ist right for liquid water
+###### (embed Kepler-186.jpg)
+
+2. Kepler-16b        -first planet discovered that orbits two stars
+###### (embed Kepler-16b.jpg)
+
+3. Kepler-22b        -planet in habitable zone and possible water-world planet
+###### (embed Kepler-22b.jpg)
 
 
 (Source: https://www.nasa.gov/feature/jpl/20-intriguing-exoplanets)
