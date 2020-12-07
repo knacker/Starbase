@@ -2,7 +2,7 @@
 # 1.)
 Website title: Starbase
 
-Domain: www.starbase.info
+Domain: www.starbase.site
 
 Starbase is a website that will be used to provide a simple overview about stars, as well as interesting facts or objects, that were discovered in the observable universe. 
 The User will see an interactive website, where he can click through each entry, as well as simple information regarding each of them. The main purpose is to show the maybe (not yet) interested person, how interesting the cosmos and its objects actually are and in what relation they stand to each other.
