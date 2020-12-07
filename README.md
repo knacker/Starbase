@@ -30,6 +30,106 @@ First of all a List, with each website name:
 # 4.)
 
 
+# home.html
+
+## title: Welcome to starbase.info!
+
+Did you know that we are know more about the endless void of the universe, than about the dark depths of our oceans?   Outside our atmosphere there are many secrets, a huge number of known, but also unknown objects just waiting to be discovered. Many of our findings are based on discoveries that were already made and there are more and more to come!  On this website we would like to give you a small impression of what is already known in the universe. Interactively you will dive into the different topics and learn more about stars, galaxies or black holes.
+
+###### Implement the official logo as home button inside the header. Recreate it as SVG file. You will find a png of it here: /doc/logo/starbase_logo.png
+
+
+
+# privacy.html
+
+## title: Privacy
+
+This website was created as part of the module „12316 -  Specification Languages and Processing Techniques for Web Documents“ at the university BTU Cottbus-Senftenberg.
+
+Department: Faculty 1 - Mathematics, Computer Science, Physics, Electrical Engineering and Information Technology
+Responsible Staff Member: Prof. Dr. phil. habil. Wagner, Gerd
+
+
+Responsible for the content
+
+Max 
+Student for eBusiness (B.Sc.)
+BTU Cottbus-Senftenberg
+
+Marvin 
+Student for eBusiness (B.Sc.)
+BTU Cottbus-Senftenberg
+
+
+Copyright © 2020 by www.starbase.info
+
+All rights reserved. 
+
+
+
+# galaxies.html
+
+## title: Galaxies
+
+A galaxy is a large collection of stars, planetary systems, gas nebulae, dust clouds, dark matter and other astronomical objects bound by gravity. Its diameter can be several hundred thousand light years and its appearance, greeting and composition can vary greatly.
+With current technology, more than 50 billion galaxies can be observed from Earth. Since 2016, research assumes that there are about a billion.
+
+### Structure of a Galaxy
+
+Large galaxies often form the structure of spirals. Such galaxies are disk-shaped, whose appearance resembles a spiral pattern with several spiral arms. The central region, called "bulge", turns on its own axis and consists mainly of older stars. Spiral galaxies contain a relatively large amount of gas in the disk, so new stars can be formed permanently.
+
+###### Embed: /doc/pics/structure_galaxy.jpg
+
+### Types of Galaxies
+
+Besides the spiral galaxies there are other types. Among them are for example active galaxies or dwarf galaxies. 
+Dwarf galaxies are galaxies with lower brightness and much more numerous than giant galaxies. The number of stars in a dwarf galaxy is only between a few 100,000 and a few billion stars, while our spiral Milky Way counts about 300 billion stars.
+An active galaxy is generally a subgroup of galaxies with a particularly bright core. This high luminosity most likely indicates an active massive black hole at the center of the galaxy.
+
+###### Embed: /doc/pics/active_galaxy.jpg
+###### Embed: /doc/pics/dwarf_galaxy.jpg
+
+Let's talk about Clusters of Galaxies (href to galaxy-clusters.html) and what makes them so interesting.
+
+(src: https://www.britannica.com/place/Milky-Way-Galaxy/The-structure-and-dynamics-of-the-Milky-Way-Galaxy, https://en.wikipedia.org/wiki/Galaxy)
+
+
+
+# galaxy-cluster.html
+
+## title: Clusters of Galaxies 
+
+Clusters of galaxies contain up to several thousand galaxies moving at different velocities in the common gravitational field (force field due to gravity and certain inertial effects). According to the current state of research, they are the largest structures in the universe that are gravitationally bound.
+The main part of the mass of the galaxy clusters is dark matter (about 85%). They are also penetrated by a thin gas, 10 to 100 million Kelvin hot, which can be observed through its X-rays. This gas makes up about 13% of the mass of a galaxy cluster. The remaining 2% of the visible mass is present in the stars and planets of the galaxies. In the middle of galaxy clusters there is often a huge elliptical galaxy.
+
+###### Embed: /doc/pics/galaxy_cluster.jpg
+
+(src: https://www.mpe.mpg.de/2040034/clusters_and_groups_of_galaxies)
+
+
+
+# black-holes.html
+
+## title: Black Holes
+
+A black hole, an object that swallows up everything and there is no escape. Neither light, matter, objects nor information can escape the immense gravity. This is how many people imagine a black hole, but is this correct?
+
+A black hole is a place where gravity pulls everything in it. Because a black hole does not allow light to escape, they are not visible to the human eye. Special tools help to define the position of black holes. They are formed as result of a dying sun. Shortly before the death of a star its mass collapses and is concentrated to an enormous density. The core is called a „singularity“ which is surrounded by a sphere called „event horizon“. The event horizon is the point which crossing causes a „one way ticket“. Something that gets into the radius of a black hole, will not return out of it. That fact that a way out is unimaginable, is described by the general theory of relativity by an extreme curvature of spacetime.
+
+###### Embed: /doc/pics/structure_black_hole.jpg
+
+### Types of Black Holes
+
+Stellar-mass black holes are formed when a massiv star collapses. They can be found scattered throughout the galaxy, in the same places where stars exist.
+
+Supermassive black holes are found at the center of nearly every large galaxy. The exact origin of supermassive black holes is still unknown. It is assumed that there must be a connection between the formation of the black hole and the galaxy, since there are correlated in the size of each other.
+
+###### Embed: /doc/pics/black_hole.jpg
+
+(src: https://imagine.gsfc.nasa.gov/science/objects/black_holes1.html, https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-black-hole-k4.html)
+
+
+
 # Stars.html
 
 ## title: Stars
@@ -48,6 +148,7 @@ Well, that answer is kind of complicated. Since there are so many, it won’t be
 
 
 Now that we have seen the most common stars, there are a few other obscure stars, which can be found here(hyperlink to Neutronstar.html).
+
 
 
 # Neutronstar.html
@@ -72,6 +173,8 @@ Most of the neutron stars can be observed as pulsars. Pulsars are rotating neutr
 Magnetars are another type of neutron star. In a regular neutron star, the magnetic files are trillions of times the earths, but in the case of magnetars, it's another 1000 times stronger. Like all neutron stars, the crust of the star is locked in the magnetic field. A small movement of the crust can mean that huge amounts of energy can be released in the form of electromagnetic radiation. A magnetar called SGR 1806-20 had a burst, where in 1/10 of a second it released more energy than the sun has in 100.000 years combined.
 ###### embed Magnetar.png
 (source: https://www.mpifr-bonn.mpg.de/research/fundamental/neutronstars)
+
+
 
 # Planets.html
 
@@ -117,7 +220,6 @@ While we know that there are a lot of Exoplanets, we will only list a few here, 
 
 
 
-
 # Earthlikes.html
 
 ## title:Earthlike planets
@@ -128,6 +230,9 @@ A planet considered earth-like is rocky on its surface and about 0.5 to 1.5 time
 Known earth like planets
 It is known that these planets exist, but havent been seen yet. We do have a few potentially habitable planets though. One example for that might be Proxima Centauri b, which might be possibly habitable, but is very unlikely to be. The best chance at success is targeting our closest neighbor system, Alpha Centauri. With Alpha Centauri being a binary system, there is a 85% chance that there will be a potentially habitable planet. With Alpha Centauri being 4,34 light years away, it still is currently impossible to get there in a human life time, taking 100 years. We still have a long way to go.
 (Source: https://www.space.com/35069-what-is-an-earthlike-planet.html)
+
+
+
 # 5.)  
 * star background (transparent black box overlay)
    * dark blue
