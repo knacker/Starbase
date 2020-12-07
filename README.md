@@ -90,7 +90,7 @@ An active galaxy is generally a subgroup of galaxies with a particularly bright 
 ###### Embed: /doc/galaxies/active_galaxy.jpg
 ###### Embed: /doc/galaxies/dwarf_galaxy.jpg
 
-Let's talk about Clusters of Galaxies (href to galaxy-clusters.html) and what makes them so interesting.
+Let's talk about Clusters of Galaxies (href to galaxy-cluster.html) and what makes them so interesting.
 
 (src: https://www.britannica.com/place/Milky-Way-Galaxy/The-structure-and-dynamics-of-the-Milky-Way-Galaxy, https://en.wikipedia.org/wiki/Galaxy)
 
