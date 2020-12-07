@@ -46,18 +46,19 @@ Did you know that we are know more about the endless void of the universe, than 
 
 This website was created as part of the module „12316 -  Specification Languages and Processing Techniques for Web Documents“ at the university BTU Cottbus-Senftenberg.
 
-Department: Faculty 1 - Mathematics, Computer Science, Physics, Electrical Engineering and Information Technology
-Responsible Staff Member: Prof. Dr. phil. habil. Wagner, Gerd
+Department: Faculty 1 - Mathematics, Computer Science, Physics, Electrical Engineering and Information Technology <br/>
+Responsible Staff Member: Prof. Dr. phil. habil. Wagner, Gerd <br/> <br/>
 
 
 Responsible for the content
 
-Max 
-Student for eBusiness (B.Sc.)
+Max <br/>
+Student for eBusiness (B.Sc.) <br/>
 BTU Cottbus-Senftenberg
 
-Marvin 
-Student for eBusiness (B.Sc.)
+
+Marvin <br/>
+Student for eBusiness (B.Sc.) <br/>
 BTU Cottbus-Senftenberg
 
 
