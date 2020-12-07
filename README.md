@@ -79,7 +79,7 @@ With current technology, more than 50 billion galaxies can be observed from Eart
 
 Large galaxies often form the structure of spirals. Such galaxies are disk-shaped, whose appearance resembles a spiral pattern with several spiral arms. The central region, called "bulge", turns on its own axis and consists mainly of older stars. Spiral galaxies contain a relatively large amount of gas in the disk, so new stars can be formed permanently.
 
-###### Embed: /doc/pics/structure_galaxy.jpg
+###### Embed: /doc/galaxies/structure_galaxy.jpg
 
 ### Types of Galaxies
 
@@ -87,8 +87,8 @@ Besides the spiral galaxies there are other types. Among them are for example ac
 Dwarf galaxies are galaxies with lower brightness and much more numerous than giant galaxies. The number of stars in a dwarf galaxy is only between a few 100,000 and a few billion stars, while our spiral Milky Way counts about 300 billion stars.
 An active galaxy is generally a subgroup of galaxies with a particularly bright core. This high luminosity most likely indicates an active massive black hole at the center of the galaxy.
 
-###### Embed: /doc/pics/active_galaxy.jpg
-###### Embed: /doc/pics/dwarf_galaxy.jpg
+###### Embed: /doc/galaxies/active_galaxy.jpg
+###### Embed: /doc/galaxies/dwarf_galaxy.jpg
 
 Let's talk about Clusters of Galaxies (href to galaxy-clusters.html) and what makes them so interesting.
 
@@ -103,7 +103,7 @@ Let's talk about Clusters of Galaxies (href to galaxy-clusters.html) and what ma
 Clusters of galaxies contain up to several thousand galaxies moving at different velocities in the common gravitational field (force field due to gravity and certain inertial effects). According to the current state of research, they are the largest structures in the universe that are gravitationally bound.
 The main part of the mass of the galaxy clusters is dark matter (about 85%). They are also penetrated by a thin gas, 10 to 100 million Kelvin hot, which can be observed through its X-rays. This gas makes up about 13% of the mass of a galaxy cluster. The remaining 2% of the visible mass is present in the stars and planets of the galaxies. In the middle of galaxy clusters there is often a huge elliptical galaxy.
 
-###### Embed: /doc/pics/galaxy_cluster.jpg
+###### Embed: /doc/galaxies/galaxy_cluster.jpg
 
 (src: https://www.mpe.mpg.de/2040034/clusters_and_groups_of_galaxies)
 
@@ -117,7 +117,7 @@ A black hole, an object that swallows up everything and there is no escape. Neit
 
 A black hole is a place where gravity pulls everything in it. Because a black hole does not allow light to escape, they are not visible to the human eye. Special tools help to define the position of black holes. They are formed as result of a dying sun. Shortly before the death of a star its mass collapses and is concentrated to an enormous density. The core is called a „singularity“ which is surrounded by a sphere called „event horizon“. The event horizon is the point which crossing causes a „one way ticket“. Something that gets into the radius of a black hole, will not return out of it. That fact that a way out is unimaginable, is described by the general theory of relativity by an extreme curvature of spacetime.
 
-###### Embed: /doc/pics/structure_black_hole.jpg
+###### Embed: /doc/black-holes/structure_black_hole.jpg
 
 ### Types of Black Holes
 
@@ -125,7 +125,7 @@ Stellar-mass black holes are formed when a massiv star collapses. They can be fo
 
 Supermassive black holes are found at the center of nearly every large galaxy. The exact origin of supermassive black holes is still unknown. It is assumed that there must be a connection between the formation of the black hole and the galaxy, since there are correlated in the size of each other.
 
-###### Embed: /doc/pics/black_hole.jpg
+###### Embed: /doc/black-holes/black_hole.jpg
 
 (src: https://imagine.gsfc.nasa.gov/science/objects/black_holes1.html, https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-black-hole-k4.html)
 
