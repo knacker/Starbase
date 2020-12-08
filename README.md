@@ -30,7 +30,7 @@ First of all a List, with each website name:
 # 4.)
 
 
-# home.html
+# index.html
 
 ## title: Welcome to starbase.info!
 
