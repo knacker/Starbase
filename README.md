@@ -235,22 +235,22 @@ It is known that these planets exist, but havent been seen yet. We do have a few
 
 
 # 5.)  
-* star background (transparent black box overlay)
-   * dark blue
-* structure
-   * header with topics
-      * dark grey color
-   * webseite logo for homepage
-      * center of the header
-   * topics with more than one category → drop down menu
-   * all buttons transparent with purple box color
-   * text color white
-   * “back to the top button” in the lower right corner
-   * content wrapper with fixed size in the middle (not overall browser size)
-      * dark grey color (same as header)
-   * round button design
-   * responsive web design
-   * burger menu for mobile devices
-   * footer with about and privacy
-      * dark grey color (same as header)
-   * font: Arial
+
+## Look and feel
+
+Here we will give you a description how the website should be structured. <br/>
+The background should be a dark blue background with a gradient into purple. The brightness of the background should be adjusted so that the contrast to the content is clearly visible. The Content Wrapper should be dark grey, so that the white font of headlines and text is well readable. The font is „Arial“ and the font color white. Please make sure, that the website is responsive for every screen resolution and size. 
+
+### Header
+
+The header should include alle topics of the website (Home, Galaxies, Blackholes, Stars, Planets). The Home button should be placed in the middle of the header (SVG Logo). The  should scale up a little bit, in case the user hovers over it. Topics with more subtopics has to be a drop down menu to get an overview of all subpages (Galaxies, Stars, Planets). The banner is a black rounded box with an opacity of 15%. The buttons are transparent with a thin purple border. By hovering over them, the buttons should light up in a white color and the text changes to a black font color. The header is very important for navigation through the website. Therefore the user could have the   opportunity to reach the header from any point of the page. That means a header attached to the top, even when the user is scrolling down, would be great feature. 
+
+### Body
+
+The Content Wrapper includes all content like text and pictures. He has a fixed size in the middle of a page (not overall browser size). Headlines have to be centered, paragraphs alignment left. It would be great, when the user has the opportunity to get back to the top of the page, by simply clicking on a button in the lower right corner. 
+
+### Footer
+
+The consists of a hyperlink to the privacy page and a copyright lettering on the left.
+
+/doc/web-structure/strucuture_example_starbase.png shows an example of how the website should look like
