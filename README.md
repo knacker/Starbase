@@ -131,7 +131,7 @@ Supermassive black holes are found at the center of nearly every large galaxy. T
 
 
 
-# Stars.html
+# stars.html
 
 ## title: Stars
 
@@ -152,7 +152,7 @@ Now that we have seen the most common stars, there are a few other obscure stars
 
 
 
-# Neutronstar.html
+# neutronstar.html
 
 ## title: Neutron Stars
 
@@ -177,7 +177,7 @@ Magnetars are another type of neutron star. In a regular neutron star, the magne
 
 
 
-# Planets.html
+# planets.html
 
 ## title: Planets : An Overview
 
@@ -221,7 +221,7 @@ While we know that there are a lot of Exoplanets, we will only list a few here, 
 
 
 
-# Earthlikes.html
+# earthlikes.html
 
 ## title:Earthlike planets
 
@@ -236,7 +236,7 @@ It is known that these planets exist, but havent been seen yet. We do have a few
 
 # 5.)  
 
-## Look and feel
+## Look and Feel
 
 Here we will give you a description how the website should be structured. <br/>
 The background should be a dark blue background with a gradient into purple. The brightness of the background should be adjusted so that the contrast to the content is clearly visible. The Content Wrapper should be dark grey, so that the white font of headlines and text is well readable. The font is „Arial“ and the font color white. Please make sure, that the website is responsive for every screen resolution and size. 
@@ -251,6 +251,6 @@ The Content Wrapper includes all content like text and pictures. He has a fixed 
 
 ### Footer
 
-The consists of a hyperlink to the privacy page and a copyright lettering on the left.
+The consists of a hyperlink to the privacy page and a copyright lettering on the left. The footer is in the same color as the conent wrapper.
 
 /doc/web-structure/strucuture_example_starbase.png shows an example of how the website should look like
