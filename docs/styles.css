@@ -1,0 +1,19 @@
+body {
+    min-height: 75rem;
+    padding-top: 3.6rem;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: linear-gradient(0deg, rgba(0, 0, 122, 1) 0%, rgba(123,34,195,1) 100%);
+}
+
+.container {
+    text-align: center;
+}
+
+.color-primary {
+    color: white !important;
+}
+
+.color-secondary {
+    color: darkgray !important;
+}

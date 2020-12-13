@@ -10,6 +10,7 @@ The User will see an interactive website, where he can click through each entry,
 
 # 2.)
 See /doc/diagram.png
+
 `TODO (Christopher): Overall structure and boilerplate like in the "diagram.png". `
 
 # 3.)
