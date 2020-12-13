@@ -9,9 +9,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (c497b03c, 2020-09-10)"
@@ -19,15 +19,15 @@
   <defs
      id="defs2">
     <rect
-       x="57.943594"
-       y="42.270327"
-       width="61.268226"
-       height="50.344434"
+       x="57.943596"
+       y="42.270329"
+       width="61.268227"
+       height="50.344433"
        id="rect1332" />
     <rect
        x="108.5255"
-       y="20.660216"
-       width="33.246324"
+       y="20.660215"
+       width="33.246323"
        height="29.921692"
        id="rect1326" />
     <linearGradient
@@ -45,7 +45,9 @@
          x="0"
          y="0"
          xlink:href="#g879"
-         id="use885" />
+         id="use885"
+         width="100%"
+         height="100%" />
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -54,7 +56,9 @@
          x="0"
          y="0"
          xlink:href="#g890"
-         id="use896" />
+         id="use896"
+         width="100%"
+         height="100%" />
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -63,7 +67,9 @@
          x="0"
          y="0"
          xlink:href="#g903"
-         id="use909" />
+         id="use909"
+         width="100%"
+         height="100%" />
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -72,7 +78,9 @@
          x="0"
          y="0"
          xlink:href="#g935"
-         id="use941" />
+         id="use941"
+         width="100%"
+         height="100%" />
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -81,7 +89,9 @@
          x="0"
          y="0"
          xlink:href="#g981"
-         id="use987" />
+         id="use987"
+         width="100%"
+         height="100%" />
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -90,7 +100,9 @@
          x="0"
          y="0"
          xlink:href="#g1010"
-         id="use1016" />
+         id="use1016"
+         width="100%"
+         height="100%" />
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -99,7 +111,9 @@
          x="0"
          y="0"
          xlink:href="#g1029"
-         id="use1035" />
+         id="use1035"
+         width="100%"
+         height="100%" />
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -108,7 +122,9 @@
          x="0"
          y="0"
          xlink:href="#g1167"
-         id="use1173" />
+         id="use1173"
+         width="100%"
+         height="100%" />
     </clipPath>
   </defs>
   <sodipodi:namedview
@@ -118,9 +134,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1141583"
-     inkscape:cx="509.05114"
-     inkscape:cy="213.27193"
+     inkscape:zoom="8.5283027"
+     inkscape:cx="43.709698"
+     inkscape:cy="25.33512"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -128,9 +144,10 @@
      inkscape:window-width="1440"
      inkscape:window-height="797"
      inkscape:window-x="1920"
-     inkscape:window-y="26"
+     inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:snap-global="false" />
+     inkscape:snap-global="false"
+     units="px" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -162,7 +179,8 @@
            dx="0 20.394949"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.2222px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">SB</tspan></tspan></text>
     <g
-       id="g1407">
+       id="g1407"
+       transform="matrix(0.09967701,0,0,0.09967701,-1.0052182,0.46066645)">
       <g
          id="g1012"
          clip-path="url(#clipPath1014)"
