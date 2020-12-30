@@ -520,6 +520,11 @@ figure.hover:hover::before {
 		padding: 0;
 	}
 	
+	footer .inside {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	
 	.two_column .column {
 			padding: 30px 50px;
 	}
