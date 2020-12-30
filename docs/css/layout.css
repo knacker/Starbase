@@ -53,6 +53,10 @@ a {
 	color: inherit;
 }
 
+a:hover {
+	color: #fff;
+}
+
 .blinking {
 	animation: blinker 3s linear infinite;
 }
@@ -67,6 +71,11 @@ a {
 
 .bg-dark {
 	background-color: rgba(0,0,0,0.5);
+}
+
+.src {
+	font-size: 0.4em;
+	line-height: 1.5;
 }
 
 @keyframes blinker {  
