@@ -508,3 +508,30 @@ figure.hover:hover::before {
 		display: block;	
 	}
 }
+
+@media (max-width: 720px) {
+	img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 590px) {
+	.inside {
+		padding: 0;
+	}
+	
+	.two_column .column {
+			padding: 30px 50px;
+	}
+}
+
+@media (max-width: 500px) {
+	.main-slider .caption, .title-image .caption {
+		font-size: 1.5em;
+		letter-spacing: 8px;
+	}
+	
+	.main-slider .subcaption, .title-image .subcation {
+		font-size: 1.1em;
+	}
+}
