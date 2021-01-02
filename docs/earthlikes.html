@@ -1,27 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Earthlike planets</title>
-    <img id="starbase_logo" src="starbase_logo.svg" width="120" height="120" alt="starbase logo"/>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+
+    <title>Exoplanets</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/layout.css" media="screen">
+    <!-- /CSS -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Ubuntu:wght@300;400;500;700&display=swap"
+          rel="stylesheet"/>
+    <!-- /Fonts -->
 </head>
 <body>
-<div class="container">
-    <h1>Earthlike planets</h1>
-    <h2>What makes a planet earthlike?</h2>
-    <p>
-        A planet considered earth-like is rocky on its surface and about 0.5 to 1.5 times the size of the earth. They
-        also sit in the habitable zone of their orbiting stars, which means they have the potential to support liquid
-        water on their surface. The ability to have water means that the planet may be inhabited by life.
-        Known earth like planets
-        It is known that these planets exist, but havent been seen yet. We do have a few potentially habitable planets
-        though. One example for that might be Proxima Centauri b, which might be possibly habitable, but is very
-        unlikely to be. The best chance at success is targeting our closest neighbor system, Alpha Centauri. With Alpha
-        Centauri being a binary system, there is a 85% chance that there will be a potentially habitable planet. With
-        Alpha Centauri being 4,34 light years away, it still is currently impossible to get there in a human life time,
-        taking 100 years. We still have a long way to go.
-    </p>
+
+<!-- Back to top -->
+<div id="btn-back-to-top">
+    <a href="javascript:void(0);" onclick="topFunction()">
+        <img src="img/btn-back-to-top.svg" width="40" height="40"/>
+    </a>
 </div>
+<!-- /Back to top -->
+
+<header>
+    <div class="inside">
+
+        <!-- Logo -->
+        <div id="header-logo">
+            <a href="index.html">
+                <img src="img/logo.svg" height="80">
+            </a>
+        </div>
+        <!-- /Logo -->
+
+        <!-- Navigation -->
+        <nav id="main-nav">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="submenu">
+                    <a href="#">Galaxies</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="#">Clusters of Galaxies</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="black-holes.html">Black Holes</a>
+                </li>
+                <li class="submenu">
+                    <a href="#">Stars</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="neutronstars.html">Neutron Stars</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="#" class="active">Planets</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="exoplanets.html" class="active">Exo-Planets</a>
+                        </li>
+                        <li>
+                            <a href="#">Earth-like planets</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- /Navigation -->
+
+        <!-- Mobile Navigation -->
+        <a onclick="toggle_mobile_nav()" href="javascript:void(0);" id="btn-mobile-nav">
+            <img id="img-btn-mobile-nav" src="img/btn-mobile-nav.svg" width="80" height="80">
+        </a>
+        <nav id="mobile-nav">
+            <ul>
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li class="submenu">
+                    <a href="#">Galaxies</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="galaxy-cluster.html">Clusters of Galaxies</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="black-holes.html">Black Holes</a>
+                </li>
+                <li class="submenu">
+                    <a href="#">Stars</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="neutronstars.html">Neutron Stars</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="#">Planets</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="exoplanets.html">Exo-Planets</a>
+                        </li>
+                        <li>
+                            <a href="#">Earth-like planets</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- /Mobile Navigation -->
+
+        <div class="clear-float"></div>
+    </div>
+</header>
+
+<main>
+
+    <!-- Slider -->
+    <div class="title-image">
+        <div class="slide slide_1">
+            <div class="overlay"></div>
+            <p class="caption blinking">Earthlikes</p>
+        </div>
+    </div>
+    <!-- /Slider -->
+
+    <div class="article">
+        <div class="inside">
+            <h1>Earthlike planets</h1>
+            <h2>What makes a planet earthlike?</h2>
+            <p>
+                A planet considered earth-like is rocky on its surface and about 0.5 to 1.5 times the size of the earth.
+                They
+                also sit in the habitable zone of their orbiting stars, which means they have the potential to support
+                liquid
+                water on their surface. The ability to have water means that the planet may be inhabited by life.
+                Known earth like planets
+                It is known that these planets exist, but havent been seen yet. We do have a few potentially habitable
+                planets
+                though. One example for that might be Proxima Centauri b, which might be possibly habitable, but is very
+                unlikely to be. The best chance at success is targeting our closest neighbor system, Alpha Centauri.
+                With Alpha
+                Centauri being a binary system, there is a 85% chance that there will be a potentially habitable planet.
+                With
+                Alpha Centauri being 4,34 light years away, it still is currently impossible to get there in a human
+                life time,
+                taking 100 years. We still have a long way to go.
+            </p>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="inside">
+        <div class="copyright">
+            <p>Copyright &copy; 2021 Starbase. All rights reserved.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="privacy.html">Privacy</a>
+        </div>
+
+        <div class="clear-float"></div>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="js/navigation.js"></script>
+<!-- /JavaScript ->
+
 </body>
 </html>
