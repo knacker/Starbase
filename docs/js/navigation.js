@@ -11,7 +11,7 @@ function toggle_mobile_nav() {
 	}
 }
 
-btnBackToTop = document.getElementById("btn-back-to-top");
+var btnBackToTop = document.getElementById("btn-back-to-top");
 
 window.onscroll = function() {scrollFunction()};
 
