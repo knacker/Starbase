@@ -428,6 +428,10 @@ title-image slide {
 	overflow: hidden;
 }
 
+.two_column .img_column .framed {
+	margin: 150px;
+}
+
 .two_column .img_column img {
 	width: 100%;
 	height: 100%;
@@ -601,6 +605,10 @@ figure.hover:hover::before {
 @media (max-width: 720px) {
 	img {
 		width: 100%;
+	}
+	
+	.two_column .img_column .framed {
+		margin: 0px;
 	}
 }
 
