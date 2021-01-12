@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+
+    <title>Stars</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/layout.css" media="screen">
+    <!-- /CSS -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Ubuntu:wght@300;400;500;700&display=swap"
+          rel="stylesheet"/>
+    <!-- /Fonts -->
+</head>
+<body>
+
+<!-- Back to top -->
+<div id="btn-back-to-top">
+    <a href="javascript:void(0);" onclick="topFunction()">
+        <img src="img/btn-back-to-top.svg" alt="" width="40" height="40"/>
+    </a>
+</div>
+<!-- /Back to top -->
+
+<header>
+    <div class="inside">
+
+        <!-- Logo -->
+        <div id="header-logo">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="Stabase Logo" height="80">
+            </a>
+        </div>
+        <!-- /Logo -->
+
+        <!-- Navigation -->
+        <nav id="main-nav">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="submenu">
+                    <a href="galaxies.html">Galaxies</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="galaxy-cluster.html">Clusters of Galaxies</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="black-holes.html">Black Holes</a>
+                </li>
+                <li class="submenu">
+                    <a href="stars.html" class="active">Stars</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="neutronstars.html">Neutron Stars</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="planets.html">Planets</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="exoplanets.html" class="active">Exo-Planets</a>
+                        </li>
+                        <li>
+                            <a href="earthlikes.html">Earth-like planets</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- /Navigation -->
+
+        <!-- Mobile Navigation -->
+        <a onclick="toggle_mobile_nav()" href="javascript:void(0);" id="btn-mobile-nav">
+            <img id="img-btn-mobile-nav" src="img/btn-mobile-nav.svg" alt="" width="80" height="80">
+        </a>
+        <nav id="mobile-nav">
+            <ul>
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li class="submenu">
+                    <a href="galaxies.html">Galaxies</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="galaxy-cluster.html">Clusters of Galaxies</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="black-holes.html">Black Holes</a>
+                </li>
+                <li class="submenu">
+                    <a href="stars.html">Stars</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="neutronstars.html">Neutron Stars</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="planets.html">Planets</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="exoplanets.html">Exo-Planets</a>
+                        </li>
+                        <li>
+                            <a href="earthlikes.html">Earth-like planets</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- /Mobile Navigation -->
+
+        <div class="clear-float"></div>
+    </div>
+</header>
+
+<main>
+
+    <!-- Slider -->
+    <div class="title-image">
+        <div class="slide slide_1">
+            <div class="overlay"></div>
+            <p class="caption blinking">Stars</p>
+        </div>
+    </div>
+    <!-- /Slider -->
+
+    <div class="article">
+        <div class="inside">
+            <h2>What are stars?</h2>
+            <p>
+                Stars are massive self-luminous celestial bodies of gas, that shine by radiation delivered from its
+                internal
+                energy sources. Of all the stars in the universe, only a small percentage of them is visible to the
+                human eye.
+                Many of them occur in pairs, multiple systems or star clusters. Given the huge amount of them, one would
+                assume
+                that there are many different kinds of stars. And there are! In the following paragraph you will learn
+                about how
+                stars can be different from each other and how these differences come together.(Source:
+                https://www.space.com/35069-what-is-an-earthlike-planet.html)
+            </p>
+            <img src="img/stars/embed/Morgan-Keenan_spectral_classification.png"
+                 alt="Morgan Keenan spectral classification"
+                 class="top-space" width="580">
+        </div>
+    </div>
+
+    <div class="article full-width bg-dark">
+        <div class="inside">
+            <h2>What kinds of stars do exist?</h2>
+            <p>
+                Well, that answer is kind of complicated. Since there are so many, it won’t be possible for us to list
+                all of
+                them here. The harvard classification system is being used to classify stars by surface temperature from
+                about
+                2.000 to 40.000 Kelvin. In the following table you can see what kinds of stars exist and what
+                temperature they
+                have. Also, there is a picture, if you are interested!
+            </p>
+						<h2>Types</h2>
+						
+						<div class="xml-object blue">
+							<div class="caption">
+								<p>Class: <span class="class">O</span></p>
+							</div>
+							<div class="xml-body">
+								<p>Suface temperature:<br /><span class="surface-temperatue">33,000 K</span></p>
+								<p>Conventional color description:<br /><span class="conventional-color">blue</span></p>
+								<p>Actual apparent color:<br /><span class="apparent-color">blue</span></p>
+								<p>Mass (solar masses):<br /><span class="mass">&ge; 16 M</span></p>
+								<p>Radius(solar radii):<br /><span class="radius">&ge; 6.6 R</span></p>
+								<p>Luminosity (bolometric):<br /><span class="luminosity">&ge; 30,000 L</span></p>
+								<p>Hydrogen lines:<br /><span class="hydrogen-lines">Weak</span></p>
+								<p>Fraction of all main-sequence stars:<br /><span class="fraction">&#126;0.00003 %</span></p>
+							</div>
+						</div>
+					
+						<div class="xml-object light-blue">
+							<div class="caption">
+								<p>Class: <span class="class">B</span></p>
+							</div>
+							<div class="xml-body">
+								<p>Suface temperature:<br /><span class="surface-temperatue">10,000-33,000 K</span></p>
+								<p>Conventional color description:<br /><span class="conventional-color">blue white</span></p>
+								<p>Actual apparent color:<br /><span class="apparent-color">deep blue white</span></p>
+								<p>Mass (solar masses):<br /><span class="mass">2.1-16 M</span></p>
+								<p>Radius(solar radii):<br /><span class="radius">1.8-6.6 R</span></p>
+								<p>Luminosity (bolometric):<br /><span class="luminosity">25-30,000 L</span></p>
+								<p>Hydrogen lines:<br /><span class="hydrogen-lines">Medium</span></p>
+								<p>Fraction of all main-sequence stars:<br /><span class="fraction">0.13 %</span></p>
+							</div>
+						</div>
+						
+						<div class="xml-object white-blue">
+							<div class="caption">
+								<p>Class: <span class="class">A</span></p>
+							</div>
+							<div class="xml-body">
+								<p>Suface temperature:<br /><span class="surface-temperatue">7,500-10,000 K</span></p>
+								<p>Conventional color description:<br /><span class="conventional-color">white</span></p>
+								<p>Actual apparent color:<br /><span class="apparent-color">blue white</span></p>
+								<p>Mass (solar masses):<br /><span class="mass">1.4-2.1 M</span></p>
+								<p>Radius(solar radii):<br /><span class="radius">1.4-1.8 R</span></p>
+								<p>Luminosity (bolometric):<br /><span class="luminosity">5-25 L</span></p>
+								<p>Hydrogen lines:<br /><span class="hydrogen-lines">Strong</span></p>
+								<p>Fraction of all main-sequence stars:<br /><span class="fraction">0.6 %</span></p>
+							</div>
+						</div>
+					
+						<div class="xml-object white">
+							<div class="caption">
+								<p>Class: <span class="class">F</span></p>
+							</div>
+							<div class="xml-body">
+								<p>Suface temperature:<br /><span class="surface-temperatue">6,000-7,500 K</span></p>
+								<p>Conventional color description:<br /><span class="conventional-color">yellow white</span></p>
+								<p>Actual apparent color:<br /><span class="apparent-color">white</span></p>
+								<p>Mass (solar masses):<br /><span class="mass">1.04-1.4 M</span></p>
+								<p>Radius(solar radii):<br /><span class="radius">1.15-1.4 R</span></p>
+								<p>Luminosity (bolometric):<br /><span class="luminosity">1.5-5 L</span></p>
+								<p>Hydrogen lines:<br /><span class="hydrogen-lines">Medium</span></p>
+								<p>Fraction of all main-sequence stars:<br /><span class="fraction">3 %</span></p>
+							</div>
+						</div>
+					
+						<div class="xml-object yellow-white">
+							<div class="caption">
+								<p>Class: <span class="class">G</span></p>
+							</div>
+							<div class="xml-body">
+								<p>Suface temperature:<br /><span class="surface-temperatue">5,200-6,000 K</span></p>
+								<p>Conventional color description:<br /><span class="conventional-color">yellow</span></p>
+								<p>Actual apparent color:<br /><span class="apparent-color">yellowish white</span></p>
+								<p>Mass (solar masses):<br /><span class="mass">0.8-1.04 M</span></p>
+								<p>Radius(solar radii):<br /><span class="radius">0.96-1.15 R</span></p>
+								<p>Luminosity (bolometric):<br /><span class="luminosity">0.6-1.5 L</span></p>
+								<p>Hydrogen lines:<br /><span class="hydrogen-lines">Weak</span></p>
+								<p>Fraction of all main-sequence stars:<br /><span class="fraction">7.6 %</span></p>
+							</div>
+						</div>
+					
+						<div class="xml-object yellow">
+							<div class="caption">
+								<p>Class: <span class="class">K</span></p>
+							</div>
+							<div class="xml-body">
+								<p>Suface temperature:<br /><span class="surface-temperatue">3,700-5,200 K</span></p>
+								<p>Conventional color description:<br /><span class="conventional-color">orange</span></p>
+								<p>Actual apparent color:<br /><span class="apparent-color">pale yellow orange</span></p>
+								<p>Mass (solar masses):<br /><span class="mass">0.45-0.8 M</span></p>
+								<p>Radius(solar radii):<br /><span class="radius">0.7-0.96 R</span></p>
+								<p>Luminosity (bolometric):<br /><span class="luminosity">0.08-0.6 L</span></p>
+								<p>Hydrogen lines:<br /><span class="hydrogen-lines">Very weak</span></p>
+								<p>Fraction of all main-sequence stars:<br /><span class="fraction">12.1 %</span></p>
+							</div>
+						</div>
+					
+						<div class="xml-object orange">
+							<div class="caption">
+								<p>Class: <span class="class">M</span></p>
+							</div>
+							<div class="xml-body">
+								<p>Suface temperature:<br /><span class="surface-temperatue">2,000-3,700 K</span></p>
+								<p>Conventional color description:<br /><span class="conventional-color">red</span></p>
+								<p>Actual apparent color:<br /><span class="apparent-color">light orange red</span></p>
+								<p>Mass (solar masses):<br /><span class="mass">&le; 0.45 M</span></p>
+								<p>Radius(solar radii):<br /><span class="radius">&le; 0.7 R</span></p>
+								<p>Luminosity (bolometric):<br /><span class="luminosity">&le; 0.08 L</span></p>
+								<p>Hydrogen lines:<br /><span class="hydrogen-lines">Very weak</span></p>
+								<p>Fraction of all main-sequence stars:<br /><span class="fraction">76.45 %</span></p>
+							</div>
+						</div>
+					
+						<div class="xml-object red">
+							<div class="caption">
+								<p>Class: <span class="class">R</span></p>
+							</div>
+							<div class="xml-body">
+								<p>Suface temperature:<br /><span class="surface-temperatue">1,300-2,000 K</span></p>
+								<p>Conventional color description:<br /><span class="conventional-color">red</span></p>
+								<p>Actual apparent color:<br /><span class="apparent-color">red</span></p>
+								<p>Mass (solar masses):<br /><span class="mass">Unknown</span></p>
+								<p>Radius(solar radii):<br /><span class="radius">Unknown</span></p>
+								<p>Luminosity (bolometric):<br /><span class="luminosity">Unknown</span></p>
+								<p>Hydrogen lines:<br /><span class="hydrogen-lines">Very weak</span></p>
+								<p>Fraction of all main-sequence stars:<br /><span class="fraction">Unknown</span></p>
+							</div>
+						</div>
+					
+						<div class="xml-object red">
+							<div class="caption">
+								<p>Class: <span class="class">N</span></p>
+							</div>
+							<div class="xml-body">
+								<p>Suface temperature:<br /><span class="surface-temperatue">1,300-2,000 K</span></p>
+								<p>Conventional color description:<br /><span class="conventional-color">red</span></p>
+								<p>Actual apparent color:<br /><span class="apparent-color">red</span></p>
+								<p>Mass (solar masses):<br /><span class="mass">Unknown</span></p>
+								<p>Radius(solar radii):<br /><span class="radius">Unknown</span></p>
+								<p>Luminosity (bolometric):<br /><span class="luminosity">Unknown</span></p>
+								<p>Hydrogen lines:<br /><span class="hydrogen-lines">Very weak</span></p>
+								<p>Fraction of all main-sequence stars:<br /><span class="fraction">Unknown</span></p>
+							</div>
+						</div>
+					
+						<div class="xml-object red">
+							<div class="caption">
+								<p>Class: <span class="class">S</span></p>
+							</div>
+							<div class="xml-body">
+								<p>Suface temperature:<br /><span class="surface-temperatue">1,300-2,000 K</span></p>
+								<p>Conventional color description:<br /><span class="conventional-color">red</span></p>
+								<p>Actual apparent color:<br /><span class="apparent-color">red</span></p>
+								<p>Mass (solar masses):<br /><span class="mass">Unknown</span></p>
+								<p>Radius(solar radii):<br /><span class="radius">Unknown</span></p>
+								<p>Luminosity (bolometric):<br /><span class="luminosity">Unknown</span></p>
+								<p>Hydrogen lines:<br /><span class="hydrogen-lines">Very weak</span></p>
+								<p>Fraction of all main-sequence stars:<br /><span class="fraction">Unknown</span></p>
+							</div>
+						</div>
+					<div class="clear-float"></div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="inside">
+        <div class="copyright">
+            <p>Copyright &copy; 2021 Starbase. All rights reserved.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="privacy.html">Privacy</a>
+        </div>
+
+        <div class="clear-float"></div>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="js/navigation.js"></script>
+<!-- /JavaScript -->
+
+</body>
+</html>

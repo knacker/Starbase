@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+	
+	<title>Exoplanets</title>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/layout.css" media="screen">
+	<!-- /CSS -->
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet" />
+	<!-- /Fonts -->
+</head>
+<body>
+	
+	<!-- Back to top -->
+	<div id="btn-back-to-top">
+		<a href="javascript:void(0);" onclick="topFunction()" >
+			<img src="img/btn-back-to-top.svg" alt="" width="40" height="40" />
+		</a>
+	</div>
+	<!-- /Back to top -->
+	
+	<header>
+		<div class="inside">
+			
+			<!-- Logo -->
+			<div id="header-logo">
+				<a href="index.html">
+					<img src="img/logo.svg" alt="Stabase Logo" height="80">
+				</a>
+			</div>
+			<!-- /Logo -->
+			
+			<!-- Navigation -->
+			<nav id="main-nav">
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li class="submenu">
+						<a href="galaxies.html">Galaxies</a>
+						<ul class="level_2">
+							<li>
+								<a href="galaxy-cluster.html">Clusters of Galaxies</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="black-holes.html">Black Holes</a>
+					</li>
+					<li class="submenu">
+						<a href="stars.html">Stars</a>
+						<ul class="level_2">
+							<li>
+								<a href="neutronstars.html">Neutron Stars</a>
+							</li>
+						</ul>
+					</li>
+					<li class="submenu">
+						<a href="planets.html" class="active">Planets</a>
+						<ul class="level_2">
+							<li>
+								<a href="exoplanets.html" class="active">Exo-Planets</a>
+							</li>
+							<li>
+								<a href="earthlikes.html">Earth-like planets</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<!-- /Navigation -->
+			
+			<!-- Mobile Navigation -->
+			<a onclick="toggle_mobile_nav()" href="javascript:void(0);" id="btn-mobile-nav">
+				<img id="img-btn-mobile-nav" src="img/btn-mobile-nav.svg" alt="" width="80" height="80">
+			</a>
+			<nav id="mobile-nav">
+				<ul>
+					<li>
+						<a href="index.html" class="active">Home</a>
+					</li>
+					<li class="submenu">
+						<a href="galaxy-cluster.html">Galaxies</a>
+						<ul class="level_2">
+							<li>
+								<a href="galaxy-cluster.html">Clusters of Galaxies</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="black-holes.html">Black Holes</a>
+					</li>
+					<li class="submenu">
+						<a href="stars.html">Stars</a>
+						<ul class="level_2">
+							<li>
+								<a href="neutronstars.html">Neutron Stars</a>
+							</li>
+						</ul>
+					</li>
+					<li class="submenu">
+						<a href="planets.html">Planets</a>
+						<ul class="level_2">
+							<li>
+								<a href="exoplanets.html">Exo-Planets</a>
+							</li>
+							<li>
+								<a href="earthlikes.html">Earth-like planets</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<!-- /Mobile Navigation -->
+			
+			<div class="clear-float"></div>
+		</div>
+	</header>
+
+	<main>
+		
+			
+		<!-- Slider -->
+		<div class="title-image">
+			<div class="slide slide_1">
+				<div class="overlay"></div>
+				<p class="caption blinking">Exoplanets</p>
+			</div>
+		</div>
+		<!-- /Slider -->
+
+		<div class="article">
+			<div class="inside">
+				<h2>What are they?</h2>
+				<p>Exoplanets are all planets that orbit another star, which is not the sun. There are free floating planets that once orbited a star, but have been ejected from the system they are from.</p>
+				<p class="src">(Source: <a href="http://exoplanets.org/methodology.html" target="_blank">http://exoplanets.org/methodology.html</a>)</p>
+			</div>
+		</div>
+		<div class="article full-width bg-dark">
+			<h2 class="center">Known Exoplanets</h2>
+			<div class="three_column grid">
+				<div class="column column_1">
+					<figure class="hover">
+						<img src="img/planets/embed/Kepler-186f.jpg" alt="Kepler 186f" />
+					</figure>
+					
+					<p>Kepler-186f -first rocky planet to be found in a habitable zone, which means that the temperature ist right for liquid water.</p>
+				</div>
+				<div class="column column_2">
+					<figure class="hover">
+						<img src="img/planets/embed/Kepler-16b.jpg" alt="Kepler 16b" />
+					</figure>
+					
+					<p>Kepler-16b -first planet discovered that orbits two stars.</p>
+				</div>
+				<div class="column column_3">
+					<figure class="hover">
+						<img src="img/planets/embed/Kepler-22b.jpg" alt="Kepler 22b" />
+					</figure>
+					
+					<p>Kepler-22b -planet in habitable zone and possible water-world planet.</p>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	<footer>
+		<div class="inside">
+			<div class="copyright">
+				<p>Copyright &copy; 2021 Starbase. All rights reserved.</p>
+			</div>
+			
+			<div class="footer-links">
+				<a href="privacy.html">Privacy</a>
+			</div>
+			
+			<div class="clear-float"></div>
+		</div>
+	</footer>
+	
+	<!-- JavaScript -->
+		<script src="js/navigation.js"></script>
+	<!-- /JavaScript -->
+	
+</body>
+</html>

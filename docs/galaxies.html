@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+
+    <title>Galaxies</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/layout.css" media="screen">
+    <!-- /CSS -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Ubuntu:wght@300;400;500;700&display=swap"
+          rel="stylesheet"/>
+    <!-- /Fonts -->
+</head>
+<body>
+
+<!-- Back to top -->
+<div id="btn-back-to-top">
+    <a href="javascript:void(0);" onclick="topFunction()">
+        <img src="img/btn-back-to-top.svg" alt="" width="40" height="40"/>
+    </a>
+</div>
+<!-- /Back to top -->
+
+<header>
+    <div class="inside">
+
+        <!-- Logo -->
+        <div id="header-logo">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="Stabase Logo" height="80">
+            </a>
+        </div>
+        <!-- /Logo -->
+
+        <!-- Navigation -->
+        <nav id="main-nav">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="submenu">
+                    <a href="galaxies.html" class="active">Galaxies</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="galaxy-cluster.html">Clusters of Galaxies</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="black-holes.html">Black Holes</a>
+                </li>
+                <li class="submenu">
+                    <a href="stars.html">Stars</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="neutronstars.html">Neutron Stars</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="planets.html">Planets</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="exoplanets.html" class="active">Exo-Planets</a>
+                        </li>
+                        <li>
+                            <a href="earthlikes.html">Earth-like planets</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- /Navigation -->
+
+        <!-- Mobile Navigation -->
+        <a onclick="toggle_mobile_nav()" href="javascript:void(0);" id="btn-mobile-nav">
+            <img id="img-btn-mobile-nav" src="img/btn-mobile-nav.svg" alt="" width="80" height="80">
+        </a>
+        <nav id="mobile-nav">
+            <ul>
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li class="submenu">
+                    <a href="galaxies.html">Galaxies</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="galaxy-cluster.html">Clusters of Galaxies</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="black-holes.html">Black Holes</a>
+                </li>
+                <li class="submenu">
+                    <a href="#">Stars</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="neutronstars.html">Neutron Stars</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="#">Planets</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="exoplanets.html">Exo-Planets</a>
+                        </li>
+                        <li>
+                            <a href="earthlikes.html">Earth-like planets</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- /Mobile Navigation -->
+
+        <div class="clear-float"></div>
+    </div>
+</header>
+
+<main>
+
+    <!-- Slider -->
+    <div class="title-image">
+        <div class="slide slide_1">
+            <div class="overlay"></div>
+            <p class="caption blinking">Galaxies</p>
+        </div>
+    </div>
+    <!-- /Slider -->
+
+    <div class="article">
+        <div class="inside">
+            <p>
+                A galaxy is a large collection of stars, planetary systems, gas nebulae, dust clouds, dark matter and
+                other
+                astronomical objects bound by gravity. Its diameter can be several hundred thousand light years and its
+                appearance, greeting and composition can vary greatly.
+                With current technology, more than 50 billion galaxies can be observed from Earth. Since 2016, research
+                assumes
+                that there are about a billion.
+            </p>
+            <img src="img/galaxies/active_galaxy.jpg" alt="Active galaxy" class="top-space" width="580">
+            <h2>Structure of a Galaxy</h2>
+            <p>
+                Large galaxies often form the structure of spirals. Such galaxies are disk-shaped, whose appearance
+                resembles a
+                spiral pattern with several spiral arms. The central region, called "bulge", turns on its own axis and
+                consists
+                mainly of older stars. Spiral galaxies contain a relatively large amount of gas in the disk, so new
+                stars can be
+                formed permanently.
+            </p>
+            <img src="img/galaxies/structure_galaxy.jpg" alt="Structure of galaxy" class="top-space" width="580">
+            <h2>Types of Galaxies</h2>
+            <p>
+                Besides the spiral galaxies there are other types. Among them are for example active galaxies or dwarf
+                galaxies.
+                Dwarf galaxies are galaxies with lower brightness and much more numerous than giant galaxies. The number
+                of
+                stars in a dwarf galaxy is only between a few 100,000 and a few billion stars, while our spiral Milky
+                Way counts
+                about 300 billion stars.
+                An active galaxy is generally a subgroup of galaxies with a particularly bright core. This high
+                luminosity most
+                likely indicates an active massive black hole at the center of the galaxy.
+            </p>
+
+            <img src="img/galaxies/dwarf_galaxy.jpg" alt="Dwarf galaxy" class="top-space" width="580">
+            <p>
+                Let's talk about <a href="galaxy-cluster.html">Clusters of Galaxies</a> and what makes them so
+                interesting.
+            </p>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="inside">
+        <div class="copyright">
+            <p>Copyright &copy; 2021 Starbase. All rights reserved.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="privacy.html">Privacy</a>
+        </div>
+
+        <div class="clear-float"></div>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="js/navigation.js"></script>
+<!-- /JavaScript -->
+
+</body>
+</html>

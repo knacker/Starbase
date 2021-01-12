@@ -1,0 +1,17 @@
+<svg version="1.1" height="400" width="800" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<marker id="arrow-purple" viewBox="0 0 10 10" markerwidth="6" markerheight="6" refX="5" refY="5" orient="auto">
+			<path d="M 0 0 L 10 5 L 0 10 z" fill="purple" />
+		</marker>
+		<marker id="arrow-blue" viewBox="0 0 10 10" markerwidth="6" markerheight="6" refX="5" refY="5" orient="auto">
+			<path d="M 0 0 L 10 5 L 0 10 z" fill="deepskyblue" />
+		</marker>
+	</defs>
+	<circle cx="400" cy="200" r="150" stroke="purple" stroke-width="4" fill="black" />
+	<circle cx="400" cy="200" r="4" fill="deepskyblue" />
+	<text x="50" y="50" fill="purple" stroke="none" style="font-family:sans-serif;font-weight:700;font-size:20">Horizon</text>
+	<text x="650" y="350" fill="deepskyblue" stroke="none" style="font-family:sans-serif;font-weight:700;font-size:20">Singularity</text>
+	<line x1="700" y1="325" x2="412" y2="205" stroke="deepskyblue" stroke-width="4" marker-end="url(#arrow-blue)" />
+	<path id="curve" d="M100,60 C100,160 150,250 240,200" stroke="purple" stroke-width="4" fill="none" marker-end="url(#arrow-purple)" />
+	<text x="310" y="390" fill="black" stroke="purple" stroke-width="1	" style="font-family:sans-serif;font-weight:700;font-size:40">Blackhole</text>
+</svg>	
