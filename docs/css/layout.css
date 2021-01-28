@@ -286,6 +286,10 @@ a:hover {
 	display: block;
 }
 
+#image-space {
+	margin-top: 130px;
+}
+
 main {
 	margin-top: 80px;
 	background: linear-gradient(180deg, rgba(11,16,26,1) 50%, rgb(37, 21, 51) 100%);
