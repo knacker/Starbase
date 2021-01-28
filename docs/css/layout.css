@@ -129,6 +129,7 @@ a:hover {
 }
 
 .top-space {
+	border: none;
 	margin-top: 100px;
 }
 

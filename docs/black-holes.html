@@ -1,180 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
-	
-	<title>Black Holes</title>
-	
-	<!-- CSS -->
-	<link rel="stylesheet" href="css/layout.css" media="screen">
-	<!-- /CSS -->
-	
-	<link rel="preconnect" href="https://fonts.gstatic.com" />
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet" />
-	<!-- /Fonts -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+
+    <title>Black Holes</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/layout.css" media="screen">
+    <!-- /CSS -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Ubuntu:wght@300;400;500;700&display=swap"
+          rel="stylesheet"/>
+    <!-- /Fonts -->
 </head>
 <body>
-	
-	<!-- Back to top -->
-	<div id="btn-back-to-top">
-		<a href="javascript:void(0);" onclick="topFunction()" >
-			<img src="img/btn-back-to-top.svg" alt="" width="40" height="40" />
-		</a>
-	</div>
-	<!-- /Back to top -->
-	
-	<header>
-		<div class="inside">
-			
-			<!-- Logo -->
-			<div id="header-logo">
-				<a href="index.html">
-					<img src="img/logo.svg" alt="Stabase Logo" width="120" height="80">
-				</a>
-			</div>
-			<!-- /Logo -->
-			
-			<!-- Navigation -->
-			<nav id="main-nav">
-				<ul>
-					<li>
-						<a href="index.html">Home</a>
-					</li>
-					<li class="submenu">
-						<a href="galaxies.html">Galaxies</a>
-						<ul class="level_2">
-							<li>
-								<a href="galaxy-cluster.html">Clusters of Galaxies</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a href="black-holes.html" class="active">Black Holes</a>
-					</li>
-					<li class="submenu">
-						<a href="stars.html">Stars</a>
-						<ul class="level_2">
-							<li>
-								<a href="neutronstars.html">Neutron Stars</a>
-							</li>
-						</ul>
-					</li>
-					<li class="submenu">
-						<a href="planets.html">Planets</a>
-						<ul class="level_2">
-							<li>
-								<a href="exoplanets.html">Exo-Planets</a>
-							</li>
-							<li>
-								<a href="earthlikes.html">Earth-like planets</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</nav>
-			<!-- /Navigation -->
-			
-			<!-- Mobile Navigation -->
-			<a onclick="toggle_mobile_nav()" href="javascript:void(0);" id="btn-mobile-nav">
-				<img id="img-btn-mobile-nav" src="img/btn-mobile-nav.svg" alt="" width="80" height="80">
-			</a>
-			<nav id="mobile-nav">
-				<ul>
-					<li>
-						<a href="index.html" class="active">Home</a>
-					</li>
-					<li class="submenu">
-						<a href="galaxy-cluster.html">Galaxies</a>
-						<ul class="level_2">
-							<li>
-								<a href="galaxy-cluster.html">Clusters of Galaxies</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a href="black-holes.html">Black Holes</a>
-					</li>
-					<li class="submenu">
-						<a href="stars.html">Stars</a>
-						<ul class="level_2">
-							<li>
-								<a href="neutronstars.html">Neutron Stars</a>
-							</li>
-						</ul>
-					</li>
-					<li class="submenu">
-						<a href="planets.html">Planets</a>
-						<ul class="level_2">
-							<li>
-								<a href="exoplanets.html">Exo-Planets</a>
-							</li>
-							<li>
-								<a href="earthlikes.html">Earth-like planets</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</nav>
-			<!-- /Mobile Navigation -->
-			
-			<div class="clear-float"></div>
-		</div>
-	</header>
 
-	<main>
-			<!-- Slider -->
-			<div class="title-image">
-				<div class="slide slide_1">
-					<div class="overlay"></div>
-					<h1 class="caption blinking">Black Holes</h1>
-				</div>
-			</div>
-			<!-- /Slider -->
+<!-- Back to top -->
+<div id="btn-back-to-top">
+    <a href="javascript:void(0);" onclick="topFunction()">
+        <img src="img/btn-back-to-top.svg" alt="Back to top" width="40" height="40"/>
+    </a>
+</div>
+<!-- /Back to top -->
 
-			<div class="article">
-				<div class="inside">
-					<p>A black hole, an object that swallows up everything and there is no escape. Neither light, matter, objects nor information can escape the immense gravity. This is how many people imagine a black hole, but is this correct?<br /><br />
+<header>
+    <div class="inside">
 
-					A black hole is a place where gravity pulls everything in it. Because a black hole does not allow light to escape, they are not visible to the human eye. Special tools help to define the position of black holes. They are formed as result of a dying sun. Shortly before the death of a star its mass collapses and is concentrated to an enormous density. The core is called a „singularity“ which is surrounded by a sphere called „event horizon“. The event horizon is the point which crossing causes a „one way ticket“. Something that gets into the radius of a black hole, will not return out of it. That fact that a way out is unimaginable, is described by the general theory of relativity by an extreme curvature of spacetime.</p>
-					<img src="img/structure-black-hole.svg" alt="structure of a black hole" width="580" class="top-space" />
-				</div>
-		</div>
-		<div class="article full-width bg-dark">
-			<div class="two_column grid">
-			<div class="column column_1">
-				<h2>Types of Black Holes</h2>
-				<p>Stellar-mass black holes are formed when a massive star collapses. They can be found scattered throughout the galaxy, in the same places where stars exist.
+        <!-- Logo -->
+        <div id="header-logo">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="Starbase Logo" width="120" height="80">
+            </a>
+        </div>
+        <!-- /Logo -->
 
-				Supermassive black holes are found at the center of nearly every large galaxy. The exact origin of supermassive black holes is still unknown. It is assumed that there must be a connection between the formation of the black hole and the galaxy, since there are correlated in the size of each other.</p>
-				<p class="src">(Source: 
-					<a href="https://imagine.gsfc.nasa.gov/science/objects/black_holes1.html" target="_blank">https://imagine.gsfc.nasa.gov/science/objects/black_holes1.html</a>, <a href="https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-black-hole-k4.html" target="_blank">https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-black-hole-k4.html</a>)</p>
-			</div>
-			<div class="column column_2 img_column">
-				<img src="img/black-holes/black_hole.jpg" alt="black hole" />
-			</div>
-		</div>
-		</div>
-	</main>
-	
-	<footer>
-		<div class="inside">
-			<div class="copyright">
-				<p>Copyright &copy; 2021 Starbase. All rights reserved.</p>
-			</div>
-			
-			<div class="footer-links">
-				<a href="privacy.html">Privacy</a>
-			</div>
-			
-			<div class="clear-float"></div>
-		</div>
-	</footer>
-	
-	<!-- JavaScript -->
-		<script src="js/navigation.js"></script>
-	<!-- /JavaScript -->
-	
+        <!-- Navigation -->
+        <nav id="main-nav">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="submenu">
+                    <a href="galaxies.html">Galaxies</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="galaxy-cluster.html">Clusters of Galaxies</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="black-holes.html" class="active">Black Holes</a>
+                </li>
+                <li class="submenu">
+                    <a href="stars.html">Stars</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="neutronstars.html">Neutron Stars</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="planets.html">Planets</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="exoplanets.html">Exo-Planets</a>
+                        </li>
+                        <li>
+                            <a href="earthlikes.html">Earth-like planets</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- /Navigation -->
+
+        <!-- Mobile Navigation -->
+        <a onclick="toggle_mobile_nav()" href="javascript:void(0);" id="btn-mobile-nav">
+            <img id="img-btn-mobile-nav" src="img/btn-mobile-nav.svg" alt="navigation bar" width="80" height="80">
+        </a>
+        <nav id="mobile-nav">
+            <ul>
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li class="submenu">
+                    <a href="galaxy-cluster.html">Galaxies</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="galaxy-cluster.html">Clusters of Galaxies</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="black-holes.html">Black Holes</a>
+                </li>
+                <li class="submenu">
+                    <a href="stars.html">Stars</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="neutronstars.html">Neutron Stars</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="planets.html">Planets</a>
+                    <ul class="level_2">
+                        <li>
+                            <a href="exoplanets.html">Exo-Planets</a>
+                        </li>
+                        <li>
+                            <a href="earthlikes.html">Earth-like planets</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- /Mobile Navigation -->
+
+        <div class="clear-float"></div>
+    </div>
+</header>
+
+<main>
+    <!-- Slider -->
+    <div class="title-image">
+        <div class="slide slide_1">
+            <div class="overlay"></div>
+            <h1 class="caption blinking">Black Holes</h1>
+        </div>
+    </div>
+    <!-- /Slider -->
+
+    <div class="article">
+        <div class="inside">
+            <p>A black hole, an object that swallows up everything and there is no escape. Neither light, matter,
+                objects nor information can escape the immense gravity. This is how many people imagine a black hole,
+                but is this correct?<br/><br/>
+
+                A black hole is a place where gravity pulls everything in it. Because a black hole does not allow light
+                to escape, they are not visible to the human eye. Special tools help to define the position of black
+                holes. They are formed as result of a dying sun. Shortly before the death of a star its mass collapses
+                and is concentrated to an enormous density. The core is called a „singularity“ which is surrounded by a
+                sphere called „event horizon“. The event horizon is the point which crossing causes a „one way ticket“.
+                Something that gets into the radius of a black hole, will not return out of it. That fact that a way out
+                is unimaginable, is described by the general theory of relativity by an extreme curvature of spacetime.
+            </p>
+            <img src="img/structure-black-hole.svg" alt="structure of a black hole" width="580" class="top-space"/>
+        </div>
+    </div>
+    <div class="article full-width bg-dark">
+        <div class="two_column grid">
+            <div class="column column_1">
+                <h2>Types of Black Holes</h2>
+                <p>Stellar-mass black holes are formed when a massive star collapses. They can be found scattered
+                    throughout the galaxy, in the same places where stars exist.
+
+                    Supermassive black holes are found at the center of nearly every large galaxy. The exact origin of
+                    supermassive black holes is still unknown. It is assumed that there must be a connection between the
+                    formation of the black hole and the galaxy, since there are correlated in the size of each
+                    other.</p>
+                <p class="src">(Source:
+                    <a href="https://imagine.gsfc.nasa.gov/science/objects/black_holes1.html" target="_blank">https://imagine.gsfc.nasa.gov/science/objects/black_holes1.html</a>,
+                    <a href="https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-black-hole-k4.html"
+                       target="_blank">https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-black-hole-k4.html</a>)
+                </p>
+            </div>
+            <div class="column column_2 img_column">
+                <img src="img/black-holes/black_hole.jpg" alt="black hole"/>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="inside">
+        <div class="copyright">
+            <p>Copyright &copy; 2021 Starbase. All rights reserved.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="privacy.html">Privacy</a>
+        </div>
+
+        <div class="clear-float"></div>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="js/navigation.js"></script>
+<!-- /JavaScript -->
+
 </body>
 </html>
