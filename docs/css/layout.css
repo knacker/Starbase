@@ -649,29 +649,30 @@ figure.hover:hover::before {
 	}
 }
 
-ul.breadcrumb {
-  padding: 10px 16px;
+.breadcrumb {
+  padding: 10px 16px 15px;
   list-style: none;
-  background-color: gray;
+	background-color: #000;
 }
 
-ul.breadcrumb li {
+.breadcrumb a {
   display: inline;
-  font-size: 18px;
+  font-size: 0.5em;
+	padding: 8px 0px;
+  color: white;
 }
 
-ul.breadcrumb li+li:before {
-  padding: 8px;
+.breadcrumb a:before {
+  padding: 0px;
   color: white;
   content: "/\00a0";
 }
 
-ul.breadcrumb li a {
+.breadcrumb a {
   color: floralwhite;
   text-decoration: none;
 }
 
-ul.breadcrumb li a:hover {
+.breadcrumb  a:hover {
   color: ghostwhite;
-  text-decoration: underline;
 }
