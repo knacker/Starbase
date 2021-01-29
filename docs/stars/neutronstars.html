@@ -3,10 +3,15 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/svg+xml" href="../img/favicon.svg">
 
     <title>Neutron Stars - Stars | Starbase</title>
 		<meta name="description" content="When massive stars run out of fuel, their gravitation causes their collapse. After that, there is a newborn neutron star." />
+	
+		<meta name="theme-color" content="#ffffff">
+		<link rel="icon" type="image/svg+xml" href="../img/favicon.svg">
+		<link rel="mask-icon" href="../img/mask-icon.svg" color="#000000">
+		<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+		<link rel="manifest" href="../js/manifest.json">
 	
     <!-- CSS -->
     <link rel="stylesheet" href="../css/layout.css" media="screen">
@@ -138,11 +143,11 @@
     <!-- /Slider -->
 	
 		<!-- Breadcrumb -->
-		<nav class="breadcrumb">
+		<nav class="breadcrumb" typeof="BreadcrumbList" vocab="https://schema.org">
 			<div class="inside">
-				<a href="../index.html">Starbase</a>
-				<a href="../stars.html">Stars</a>
-				<a href="neutronstars.html">Neutron Stars</a>
+				<a property="item" typeof="WebPage" href="../index.html"><span property="name">Starbase</span></a>
+				<a property="item" typeof="WebPage" href="../stars.html"><span property="name">Stars</span></a>
+				<a property="item" typeof="WebPage" href="neutronstars.html"><span property="name">Neutron Stars</span></a>
 			</div>
 		</nav>
 		<!-- Breadcrumb -->
