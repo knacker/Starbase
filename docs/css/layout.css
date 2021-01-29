@@ -668,6 +668,7 @@ figure.hover:hover::before {
 .breadcrumb li {
   font-size: 0.6em;
 	padding: 8px 0px;
+	margin-right: 4px;
   color: white;
 }
 
