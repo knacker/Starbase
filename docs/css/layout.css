@@ -655,6 +655,12 @@ figure.hover:hover::before {
 	background-color: rgba(0, 0, 0, 0.25);
 }
 
+.breadcrumb ol {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
 .breadcrumb a {
   display: inline;
   font-size: 0.5em;
