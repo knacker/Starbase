@@ -21,6 +21,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Ubuntu:wght@300;400;500;700&display=swap"
           rel="stylesheet"/>
     <!-- /Fonts -->
+	
+		<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://knacker.github.io/Starbase/",
+      "logo": "https://knacker.github.io/Starbase/img/logo.svg"
+    }
+    </script>
 </head>
 <body>
 
@@ -140,15 +149,23 @@
         </div>
     </div>
     <!-- /Slider -->
-		
+	
 		<!-- Breadcrumb -->
 		<nav class="breadcrumb">
 			<div class="inside">
-				<a href="index.html">Starbase</a>
-				<a href="stars.html">Stars</a>
+				<ol typeof="BreadcrumbList" vocab="https://schema.org">
+					<li property="itemListElement" typeof="ListItem">
+						<a property="item" typeof="WebPage" href="index.html"><span property="name">Starbase</span></a>
+						<meta property="position" content="1">
+					</li>
+					<li property="itemListElement" typeof="ListItem">
+						<span property="name">Stars</span>
+						<meta property="position" content="2">
+					</li>
+				</ol>
 			</div>
 		</nav>
-		<!-- Breadcrumb -->
+		<!-- /Breadcrumb -->
 	
     <div class="article">
         <div class="inside">
