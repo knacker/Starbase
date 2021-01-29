@@ -661,7 +661,7 @@ figure.hover:hover::before {
 	padding: 0;
 }
 
-.breadcrumb a {
+.breadcrumb a, span {
   display: inline;
   font-size: 0.5em;
 	padding: 8px 0px;
