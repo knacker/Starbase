@@ -1,3 +1,11 @@
+var mobileNav = document.getElementById("mobile-nav");
+var mainNav = document.getElementById("main-nav");
+var btnNav = document.getElementById("btn-mobile-nav");
+
+mobileNav.innerHTML = mainNav.innerHTML;
+btnNav.setAttribute('onclick', 'toggle_mobile_nav()');
+btnNav.setAttribute('href', 'javascript:void(0)');
+
 function toggle_mobile_nav() {
 	var mobileNav = document.getElementById("mobile-nav");
 	var imgMobileNav = document.getElementById("img-btn-mobile-nav");
@@ -27,3 +35,5 @@ function topFunction() {
   document.body.scrollTop = 0; 
   document.documentElement.scrollTop = 0;
 }
+
+//onclick="toggle_mobile_nav()"
