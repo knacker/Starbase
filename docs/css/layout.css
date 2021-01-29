@@ -661,14 +661,17 @@ figure.hover:hover::before {
 	padding: 0;
 }
 
-.breadcrumb a, span {
-  display: inline;
-  font-size: 0.7em;
+.breadcrumb li {
+	display: inline;
+}
+
+.breadcrumb li {
+  font-size: 0.6em;
 	padding: 8px 0px;
   color: white;
 }
 
-.breadcrumb a:before {
+.breadcrumb li:before {
   padding: 0px;
   color: white;
   content: "/\00a0";
