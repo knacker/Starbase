@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
 
-    <title>Privacy</title>
+    <title>Privacy | Starbase</title>
+		<meta name="description" content="Privacy information about Starbase." />
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/layout.css" media="screen">
@@ -39,7 +40,7 @@
 
         <!-- Navigation -->
         <nav id="main-nav">
-            <ul class="breadcrumb">
+            <ul>
                 <li>
                     <a href="index.html">Home</a>
                 </li>
@@ -47,7 +48,7 @@
                     <a href="galaxies.html">Galaxies</a>
                     <ul class="level_2">
                         <li>
-                            <a href="galaxy-cluster.html">Clusters of Galaxies</a>
+                            <a href="galaxies/galaxy-cluster.html">Clusters of Galaxies</a>
                         </li>
                     </ul>
                 </li>
@@ -58,7 +59,7 @@
                     <a href="stars.html">Stars</a>
                     <ul class="level_2">
                         <li>
-                            <a href="neutronstars.html">Neutron Stars</a>
+                            <a href="stars/neutronstars.html">Neutron Stars</a>
                         </li>
                     </ul>
                 </li>
@@ -66,10 +67,10 @@
                     <a href="planets.html">Planets</a>
                     <ul class="level_2">
                         <li>
-                            <a href="exoplanets.html" class="active">Exo-Planets</a>
+                            <a href="planets/exoplanets.html" class="active">Exo-Planets</a>
                         </li>
                         <li>
-                            <a href="earthlikes.html">Earth-like planets</a>
+                            <a href="planets/earthlikes.html">Earth-like planets</a>
                         </li>
                     </ul>
                 </li>
@@ -82,7 +83,7 @@
             <img id="img-btn-mobile-nav" src="img/btn-mobile-nav.svg" alt="navigation bar" width="80" height="80">
         </a>
         <nav id="mobile-nav">
-            <ul class="breadcrumb">
+            <ul>
                 <li>
                     <a href="index.html" class="active">Home</a>
                 </li>
@@ -134,29 +135,34 @@
         </div>
     </div>
     <!-- /Slider -->
+	
+		<!-- Breadcrumb -->
+		<nav class="breadcrumb">
+			<div class="inside">
+				<a href="index.html">Starbase</a>
+				<a href="privacy.html">Privacy</a>
+			</div>
+		</nav>
+		<!-- Breadcrumb -->
 
     <div class="article">
-        <div class="inside">
-            <p> This website was created as part of the module „12316 - Specification Languages and Processing
-                Techniques for
-                Web
-                Documents“ at the university BTU Cottbus-Senftenberg. </p>
+        <div class="inside" typeof="CollegeOrUniversity" vocab="http://schema.org/">
+            <p> This website was created as part of the module <span property="event">„12316 - Specification Languages and Processing Techniques for Web Documents“ at the university BTU Cottbus-Senftenberg.</span></p>
 
-            <p> Department: Faculty 1 - Mathematics, Computer Science, Physics, Electrical Engineering and Information
-                Technology </p>
+            <p> Department: <span property="department">Faculty 1 - Mathematics, Computer Science, Physics, Electrical Engineering and Information Technology</span></p>
 
             <h2> Responsible Staff Member </h2>
 
-            <p>Prof. Dr. phil. habil. Wagner, Gerd</p>
+            <p typeof="Person" vocab="http://schema.org/" property="member"><span property="name">Prof. Dr. phil. habil. Wagner, Gerd</span></p>
 
             <h2> Responsible for the content </h2>
 
-            <p>
-                Max: Student for eBusiness (B.Sc.)<br/>
+            <p typeof="Person" vocab="http://schema.org/" property="member">
+                <span property="name">Max</span>: Student for eBusiness (B.Sc.)<br/>
                 BTU Cottbus-Senftenberg
             </p>
-            <p>
-                Marvin: Student for eBusiness (B.Sc.)<br/>
+            <p typeof="Person" vocab="http://schema.org/" property="member">
+                <span property="name">Marvin</span>: Student for eBusiness (B.Sc.)<br/>
                 BTU Cottbus-Senftenberg
             </p>
             <p>

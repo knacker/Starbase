@@ -652,7 +652,7 @@ figure.hover:hover::before {
 .breadcrumb {
   padding: 10px 16px 15px;
   list-style: none;
-	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.25);
 }
 
 .breadcrumb a {
